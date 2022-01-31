@@ -30,8 +30,9 @@
           
         }
          h1 {
+           font-family: arial
            margin: 2px;
-           align: center
+           text-align: center
       }
     </style>
     <script>
@@ -56,11 +57,12 @@
     </script>
   </head>
   <body>
-    <div id="map"></div>
-    <div id="pano"></div>
     <div class="title">
       <h1>My First Outdoor Climbing Experience!</h1>
     </div>
+    <div id="map"></div>
+    <div id="pano"></div>
+
     
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w&callback=initialize&v=weekly" async>
