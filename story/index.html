@@ -22,6 +22,17 @@
           margin: 0;
           padding: 0;
         }
+      
+         .title {
+          background-color: white;
+          margin: 2px;
+          padding: 2px;
+          
+        }
+         h1 {
+           margin: 2px;
+           align: center
+      }
     </style>
     <script>
       function initialize() {
@@ -47,6 +58,9 @@
   <body>
     <div id="map"></div>
     <div id="pano"></div>
+    <div class="title">
+      <h1>My First Outdoor Climbing Experience!</h1>
+    </div>
     
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w&callback=initialize&v=weekly" async>
