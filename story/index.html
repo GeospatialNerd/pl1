@@ -17,7 +17,8 @@
 
         /* Optional: Makes the sample page fill the window. */
         html,
-        body {
+        body,
+        .container {
           height: 100%;
           margin: 0;
           padding: 0;
@@ -26,13 +27,13 @@
          .title {
           background-color: white;
           margin: 2px;
-          padding: 2px;
-          
+          padding: 2px;  
         }
+      
          h1 {
-           font-family: arial
+           font-family: "Arial";
            margin: 2px;
-           text-align: center
+           text-align: center;
       }
     </style>
     <script>
@@ -57,11 +58,13 @@
     </script>
   </head>
   <body>
+    <div class="container">    
     <div class="title">
       <h1>My First Outdoor Climbing Experience!</h1>
     </div>
     <div id="map"></div>
     <div id="pano"></div>
+    </div>
 
     
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
