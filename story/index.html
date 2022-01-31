@@ -16,24 +16,26 @@
         }
 
         /* Optional: Makes the sample page fill the window. */
-        html,
-        body,
-        .container {
+        html {
           height: 100%;
+        }
+        body {
+          height: 94%;
           margin: 0;
           padding: 0;
         }
       
-         .title {
+        .title {
+          height: 6%;
           background-color: white;
-          margin: 2px;
-          padding: 2px;  
+          margin: 0;
+          padding: 0;  
         }
       
-         h1 {
-           font-family: "Arial";
-           margin: 2px;
-           text-align: center;
+        h1 {
+          font-family: "Arial";
+          margin: 2px;
+          text-align: center;
       }
     </style>
     <script>
@@ -57,15 +59,12 @@
       }
     </script>
   </head>
-  <body>
-    <div class="container">    
+  <body>   
     <div class="title">
-      <h1>My First Outdoor Climbing Experience!</h1>
+      <h1>My First Outdoor Climbing Experience</h1>
     </div>
     <div id="map"></div>
     <div id="pano"></div>
-    </div>
-
     
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w&callback=initialize&v=weekly" async>
