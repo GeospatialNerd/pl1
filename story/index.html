@@ -23,7 +23,8 @@
           margin: 0;
           padding: 0;
         }
-        h1 {
+        h1,
+        p {
           font-family: Arial, Helvetica, sans-serif;
           text-align: center;
         }
@@ -33,7 +34,7 @@
         const grassi = { lat: 51.0717781, lng: -115.4080223 };
         const map = new google.maps.Map(document.getElementById("map"), {
           center: grassi, 
-          zoom: 12,
+          zoom: 13,
           mapTypeId: "terrain",
         });
         // Define the LatLng coordinates for the polygon's path.
@@ -71,6 +72,11 @@
   <body>
     <div id="info">
       <h1>The Canmore Climbing Experience</h1>
+      <p>I've climbed here!</p>
+      <p>As one of the closer crags to Canmore, the crag at Grassi Lakes is a popular after-work spot on weeknights 
+        and busy with Calgarians on weekdays. The unusual, positively featured limestone on either side of a deep gorge opens 
+        up to the beautiful Grassi Lakes below. There are loads of excellent beginner and intermediate routes and a few harder routes. 
+        This crag is a crowd-pleaser for everyone. - outdoorproject.com</p>
     </div>
     <div id="map"></div>
     <div id="pano"></div>
