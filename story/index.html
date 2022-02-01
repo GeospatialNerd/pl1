@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<!-- source: https://developers.google.com/maps/documentation/javascript/examples/streetview-simple#maps_streetview_simple-html -->
+<!-- Maps Streetview Source: https://developers.google.com/maps/documentation/javascript/examples/streetview-simple#maps_streetview_simple-html -->
+<!-- Adding Polygon Source: https://developers.google.com/maps/documentation/javascript/examples/polygon-simple -->
 <!-- template originally taken from the simple maps task but added elements from source above and adapted those -->
 <html>
   <head>
@@ -32,14 +33,14 @@
         const grassi = { lat: 51.0717781, lng: -115.4080223 };
         const map = new google.maps.Map(document.getElementById("map"), {
           center: grassi, 
-          zoom: 14,
+          zoom: 12,
           mapTypeId: "terrain",
         });
         // Define the LatLng coordinates for the polygon's path.
         const polyCoords = [
           { lat: 51.0716, lng: -115.4134 },
           { lat: 51.0760, lng: -115.4087 },
-          { lat: 51.0742, lng: -115.4006 },
+          { lat: 51.0742, lng: -115.4015 },
           { lat: 51.0697, lng: -115.4085 },
           { lat: 51.0716, lng: -115.4134 },
         ];
