@@ -10,30 +10,17 @@
        * element that contains the map. */
         #map,
         #pano {
-          height: 94%;
+          height: 100%;
           width: 50%;
           float: left;
         }
-
         /* Optional: Makes the sample page fill the window. */
+        html,
         body {
+          height: 100%;
           margin: 0;
           padding: 0;
         }
-      
-        .title {
-          height: 6%;
-          background-color: white;
-          margin: 0;
-          padding: 0;  
-        }
-      
-        h1 {
-          font-family: "Arial";
-          text-align: center;
-          margin: 0;
-          padding: 0;  
-      }
     </style>
     <script>
       function initialize() {
@@ -57,12 +44,6 @@
     </script>
   </head>
   <body>
-    <div>
-      <div class="title">
-      <h1>My First Outdoor Climbing Experience</h1>
-      </div>
-    </div>
-
     <div id="map"></div>
     <div id="pano"></div>
     
